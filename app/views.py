@@ -3,9 +3,9 @@ from app import app
 
 # Views
 @app.route('/')
-def index():
+def sources():
 
     '''
-    View root page function that returns the index page and its data
+    View root page function that returns the sources page and its data
     '''
-    return render_template('index.html')
+    return render_template('sources.html')
